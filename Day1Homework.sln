@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1Homework", "Day1Homework\Day1Homework.csproj", "{FB735734-0DB5-48CF-B267-1CB40FB10F97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService", "Day1Homework\CalculatorService.csproj", "{FB735734-0DB5-48CF-B267-1CB40FB10F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService.Tests", "Day1Homework.Tests\CalculatorService.Tests.csproj", "{482323D3-C0D2-40DF-B46E-AB0ECDB56FD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FB735734-0DB5-48CF-B267-1CB40FB10F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB735734-0DB5-48CF-B267-1CB40FB10F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB735734-0DB5-48CF-B267-1CB40FB10F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482323D3-C0D2-40DF-B46E-AB0ECDB56FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482323D3-C0D2-40DF-B46E-AB0ECDB56FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482323D3-C0D2-40DF-B46E-AB0ECDB56FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482323D3-C0D2-40DF-B46E-AB0ECDB56FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
